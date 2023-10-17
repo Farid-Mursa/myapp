@@ -1,0 +1,33 @@
+.Header-1{
+    display: flex;
+    justify-content: center;
+    p{
+        margin: 0px 10px;
+        font-size: 13px;
+        font-weight: bold;
+        color : black;
+        padding: 15px 10px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .active{
+        color: white !important;
+        background-color: #334E9E;
+        
+    }
+}
+.Header-2{
+    display: flex;
+    justify-content: center;
+    background-color: #334E9E;
+    text-align: center !important;
+    align-items: center;
+    p{
+        background-color: white;
+        margin: 25px 30px;
+        padding: 10px 30px;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 22px;
+    }
+}
